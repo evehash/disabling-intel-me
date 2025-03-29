@@ -1,0 +1,315 @@
+Warning: No platform specified. Output may be incomplete
+File /home/raspberry/original_dump.bin is 16777216 bytes
+ICH Revision: Unknown PCH
+FLMAP0:    0x00040003
+  NR:      0
+  FRBA:    0x40
+  NC:      1
+  FCBA:    0x30
+FLMAP1:    0x42100208
+  ISL:     0x42
+  FPSBA:   0x100
+  NM:      2
+  FMBA:    0x80
+FLMAP2:    0x00310330
+  PSL:     0x3103
+  FMSBA:   0x300
+FLUMAP1:   0x000008df
+  Intel ME VSCC Table Length (VTL):        8
+  Intel ME VSCC Table Base Address (VTBA): 0x000df0
+
+ME VSCC table:
+  JID0:  0x001820c2
+    SPI Component Vendor ID:            0xc2
+    SPI Component Device ID 0:          0x20
+    SPI Component Device ID 1:          0x18
+  VSCC0: 0x20452045
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+  JID1:  0x001840ef
+    SPI Component Vendor ID:            0xef
+    SPI Component Device ID 0:          0x40
+    SPI Component Device ID 1:          0x18
+  VSCC1: 0x20252025
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+  JID2:  0x0018ba20
+    SPI Component Vendor ID:            0x20
+    SPI Component Device ID 0:          0xba
+    SPI Component Device ID 1:          0x18
+  VSCC2: 0x20052005
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+  JID3:  0x0018701c
+    SPI Component Vendor ID:            0x1c
+    SPI Component Device ID 0:          0x70
+    SPI Component Device ID 1:          0x18
+  VSCC3: 0x20052005
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+
+OEM Section:
+00: 52 30 36 4d 42 32 31 57 ff 31 31 2e 30 2e 31 32
+10: 2e 31 30 30 38 ff 31 36 4d 42 ff 53 49 47 4e 45
+20: 44 ff 51 53 ff ff ff ff ff ff ff ff ff ff ff ff
+30: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+
+Found Region Section
+FLREG0:    0x00000000
+  Flash Region 0 (Flash Descriptor): 00000000 - 00000fff 
+FLREG1:    0x0fff0700
+  Flash Region 1 (BIOS): 00700000 - 00ffffff 
+FLREG2:    0x06ff0003
+  Flash Region 2 (Intel ME): 00003000 - 006fffff 
+FLREG3:    0x00020001
+  Flash Region 3 (GbE): 00001000 - 00002fff 
+FLREG4:    0x00007fff
+  Flash Region 4 (Platform Data): 00fff000 - 00000fff (unused)
+
+Found Component Section
+FLCOMP     0x325c00f5
+  Dual Output Fast Read Support:       not supported
+  Read ID/Read Status Clock Frequency: 17MHz
+  Write/Erase Clock Frequency:         48MHz
+  Fast Read Clock Frequency:           48MHz
+  Fast Read Support:                   supported
+  Read Clock Frequency:                17MHz
+  Component 2 Density:                 32MB
+  Component 1 Density:                 16MB
+FLILL      0xad604221
+  Invalid Instruction 3: 0xad
+  Invalid Instruction 2: 0x60
+  Invalid Instruction 1: 0x42
+  Invalid Instruction 0: 0x21
+FLPB       0xc7c4b9b7
+  Flash Partition Boundary Address: 0x9b7000
+
+Found PCH Strap Section
+PCHSTRP0  : 0x00100000
+PCHSTRP1  : 0x00000100
+PCHSTRP2  : 0x00000000
+PCHSTRP3  : 0x00000000
+PCHSTRP4  : 0x00000000
+PCHSTRP5  : 0x00010000
+PCHSTRP6  : 0x00000100
+PCHSTRP7  : 0x00000000
+PCHSTRP8  : 0x00000000
+PCHSTRP9  : 0x00000000
+PCHSTRP10 : 0x00030000
+PCHSTRP11 : 0x4c970100
+PCHSTRP12 : 0x00010000
+PCHSTRP13 : 0x00000000
+PCHSTRP14 : 0x00000000
+PCHSTRP15 : 0x00010000
+PCHSTRP16 : 0x00000000
+PCHSTRP17 : 0x01000070
+PCHSTRP18 : 0x00000203
+PCHSTRP19 : 0x00000064
+PCHSTRP20 : 0x00000000
+PCHSTRP21 : 0x00003a19
+PCHSTRP22 : 0x00000002
+PCHSTRP23 : 0x00000008
+PCHSTRP24 : 0x00000030
+PCHSTRP25 : 0x00000040
+PCHSTRP26 : 0x0000001d
+PCHSTRP27 : 0x00010000
+PCHSTRP28 : 0x00000000
+PCHSTRP29 : 0x0000000e
+PCHSTRP30 : 0x00000001
+PCHSTRP31 : 0x00001d4c
+PCHSTRP32 : 0x00010001
+PCHSTRP33 : 0x00000000
+PCHSTRP34 : 0x00000000
+PCHSTRP35 : 0x0000055d
+PCHSTRP36 : 0xff0af091
+PCHSTRP37 : 0xfcfcfcf7
+PCHSTRP38 : 0x00000000
+PCHSTRP39 : 0x00000000
+PCHSTRP40 : 0x00000000
+PCHSTRP41 : 0x00000c00
+PCHSTRP42 : 0x00000000
+PCHSTRP43 : 0x00001800
+PCHSTRP44 : 0x00000000
+PCHSTRP45 : 0x00000047
+PCHSTRP46 : 0x00000012
+PCHSTRP47 : 0x0010033f
+PCHSTRP48 : 0x00000080
+PCHSTRP49 : 0x00000013
+PCHSTRP50 : 0x02640000
+PCHSTRP51 : 0x00000000
+PCHSTRP52 : 0x0961f400
+PCHSTRP53 : 0x00000019
+PCHSTRP54 : 0x55555579
+PCHSTRP55 : 0x0000011f
+PCHSTRP56 : 0x0a010703
+PCHSTRP57 : 0x00000200
+PCHSTRP58 : 0x020f0009
+PCHSTRP59 : 0x00ff0000
+PCHSTRP60 : 0x00000005
+PCHSTRP61 : 0x00008645
+PCHSTRP62 : 0x00000000
+PCHSTRP63 : 0x00000e20
+PCHSTRP64 : 0x00000000
+PCHSTRP65 : 0x000433f4
+AltMeDisable bit is not set
+
+Found Master Section
+FLMSTR1:   0x00a00b00 (Host CPU/BIOS)
+  Platform Data Region Write Access: disabled
+  GbE Region Write Access:           disabled
+  Intel ME Region Write Access:      disabled
+  Host CPU/BIOS Region Write Access: disabled
+  Flash Descriptor Write Access:     disabled
+  Platform Data Region Read Access:  disabled
+  GbE Region Read Access:            disabled
+  Intel ME Region Read Access:       disabled
+  Host CPU/BIOS Region Read Access:  disabled
+  Flash Descriptor Read Access:      disabled
+  Requester ID:                      0x0b00
+
+FLMSTR2:   0x00c00d00 (Intel ME)
+  Platform Data Region Write Access: disabled
+  GbE Region Write Access:           disabled
+  Intel ME Region Write Access:      disabled
+  Host CPU/BIOS Region Write Access: disabled
+  Flash Descriptor Write Access:     disabled
+  Platform Data Region Read Access:  disabled
+  GbE Region Read Access:            disabled
+  Intel ME Region Read Access:       disabled
+  Host CPU/BIOS Region Read Access:  disabled
+  Flash Descriptor Read Access:      disabled
+  Requester ID:                      0x0d00
+
+FLMSTR3:   0x00800800 (GbE)
+  Platform Data Region Write Access: disabled
+  GbE Region Write Access:           disabled
+  Intel ME Region Write Access:      disabled
+  Host CPU/BIOS Region Write Access: disabled
+  Flash Descriptor Write Access:     disabled
+  Platform Data Region Read Access:  disabled
+  GbE Region Read Access:            disabled
+  Intel ME Region Read Access:       disabled
+  Host CPU/BIOS Region Read Access:  disabled
+  Flash Descriptor Read Access:      disabled
+  Requester ID:                      0x0800
+
+Found Processor Strap Section
+????:      0x00001000
+????:      0x00118002
+????:      0x00000210
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+raspberry@raspberrypi:~/me_cleaner $ python me_cleaner.py ~/original_dump.bin 
+Full image detected
+Found FPT header at 0x3010
+Found 13 partition(s)
+Found FTPR header: FTPR partition spans from 0x1000 to 0x130000
+Found FTPR manifest at 0x1478
+ME/TXE firmware version 11.8.83.3874 (generation 3)
+Public key match: Intel ME, firmware versions 11.x.x.x
+The HAP bit is NOT SET
+Reading partitions list...
+ FTPR (0x00001000 - 0x000130000, 0x0012f000 total bytes): NOT removed
+ FTUP (0x00272000 - 0x000600000, 0x0038e000 total bytes): removed
+ DLMP (      no data here      , 0x00000000 total bytes): nothing to remove
+ PSVN (0x00000e00 - 0x000001000, 0x00000200 total bytes): removed
+ IVBP (0x0026e000 - 0x000272000, 0x00004000 total bytes): removed
+ MFS  (0x00130000 - 0x00026e000, 0x0013e000 total bytes): removed
+ NFTP (0x00272000 - 0x00057d000, 0x0030b000 total bytes): removed
+ ROMB (      no data here      , 0x00000000 total bytes): nothing to remove
+ WCOD (0x0057d000 - 0x0005fd000, 0x00080000 total bytes): removed
+ LOCL (0x005fd000 - 0x000600000, 0x00003000 total bytes): removed
+ FLOG (0x00600000 - 0x000601000, 0x00001000 total bytes): removed
+ UTOK (0x00601000 - 0x000603000, 0x00002000 total bytes): removed
+ ISHC (      no data here      , 0x00000000 total bytes): nothing to remove
+Removing partition entries in FPT...
+Removing EFFS presence flag...
+Correcting checksum (0xa3)...
+Reading FTPR modules list...
+ FTPR.man     (uncompressed, 0x001478 - 0x0021cc): NOT removed, partition manif.
+ rbe.met      (uncompressed, 0x0021cc - 0x002262): NOT removed, module metadata
+ fptemp.met   (uncompressed, 0x002262 - 0x00229a): NOT removed, module metadata
+ kernel.met   (uncompressed, 0x00229a - 0x002328): NOT removed, module metadata
+ syslib.met   (uncompressed, 0x002328 - 0x00238c): NOT removed, module metadata
+ bup.met      (uncompressed, 0x00238c - 0x00294e): NOT removed, module metadata
+ pm.met       (uncompressed, 0x00294e - 0x0029fc): NOT removed, module metadata
+ vfs.met      (uncompressed, 0x0029fc - 0x003460): NOT removed, module metadata
+ evtdisp.met  (uncompressed, 0x003460 - 0x0035ee): NOT removed, module metadata
+ loadmgr.met  (uncompressed, 0x0035ee - 0x003716): NOT removed, module metadata
+ busdrv.met   (uncompressed, 0x003716 - 0x003abe): NOT removed, module metadata
+ gpio.met     (uncompressed, 0x003abe - 0x003c08): NOT removed, module metadata
+ prtc.met     (uncompressed, 0x003c08 - 0x003db8): NOT removed, module metadata
+ policy.met   (uncompressed, 0x003db8 - 0x003f78): NOT removed, module metadata
+ crypto.met   (uncompressed, 0x003f78 - 0x004102): NOT removed, module metadata
+ heci.met     (uncompressed, 0x004102 - 0x0042ce): NOT removed, module metadata
+ storage.met  (uncompressed, 0x0042ce - 0x0045ca): NOT removed, module metadata
+ pmdrv.met    (uncompressed, 0x0045ca - 0x0046ee): NOT removed, module metadata
+ maestro.met  (uncompressed, 0x0046ee - 0x0047d8): NOT removed, module metadata
+ fpf.met      (uncompressed, 0x0047d8 - 0x0048f0): NOT removed, module metadata
+ hci.met      (uncompressed, 0x0048f0 - 0x0049f2): NOT removed, module metadata
+ fwupdate.met (uncompressed, 0x0049f2 - 0x004afa): NOT removed, module metadata
+ ptt.met      (uncompressed, 0x004afa - 0x004c06): NOT removed, module metadata
+ touch_fw.met (uncompressed, 0x004c06 - 0x004d40): NOT removed, module metadata
+ rbe          (Huffman     , 0x004d40 - 0x007c00): NOT removed, essential
+ fptemp       (LZMA/uncomp., 0x007c00 - 0x009c00): removed
+ kernel       (Huffman     , 0x009c00 - 0x019c40): NOT removed, essential
+ syslib       (Huffman     , 0x019c40 - 0x02b040): NOT removed, essential
+ bup          (Huffman     , 0x02b040 - 0x056000): NOT removed, essential
+ pm           (Huffman     , 0x056000 - 0x059440): removed
+ vfs          (Huffman     , 0x059440 - 0x066f80): removed
+ evtdisp      (Huffman     , 0x066f80 - 0x0698c0): removed
+ loadmgr      (Huffman     , 0x0698c0 - 0x06e6c0): removed
+ busdrv       (Huffman     , 0x06e6c0 - 0x072140): removed
+ gpio         (Huffman     , 0x072140 - 0x073e00): removed
+ prtc         (Huffman     , 0x073e00 - 0x074f80): removed
+ policy       (Huffman     , 0x074f80 - 0x080180): removed
+ crypto       (Huffman     , 0x080180 - 0x09af80): removed
+ heci         (LZMA/uncomp., 0x09af80 - 0x09ee40): removed
+ storage      (Huffman     , 0x09ee40 - 0x0a4ec0): removed
+ pmdrv        (Huffman     , 0x0a4ec0 - 0x0a6a40): removed
+ maestro      (Huffman     , 0x0a6a40 - 0x0ab6c0): removed
+ fpf          (Huffman     , 0x0ab6c0 - 0x0ae040): removed
+ hci          (LZMA/uncomp., 0x0ae040 - 0x0ae8c0): removed
+ fwupdate     (LZMA/uncomp., 0x0ae8c0 - 0x0b3600): removed
+ ptt          (LZMA/uncomp., 0x0b3600 - 0x0c8e80): removed
+ touch_fw     (LZMA/uncomp., 0x0c8e80 - 0x130000): removed
+The ME minimum size should be 372736 bytes (0x5b000 bytes)
+The ME region can be reduced up to:
+ 00003000:0005dfff me
+Checking the FTPR RSA signature... VALID
+Done! Good luck!
